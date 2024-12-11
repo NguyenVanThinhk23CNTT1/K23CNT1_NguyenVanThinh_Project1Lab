@@ -18,3 +18,5 @@ Route::post('/khoa/edit',[KhoaController::class,'editSubmit'])->name('khoa.editS
 //
 Route::get('/khoa/delete/{makh}',[KhoaController::class,'delete'])->name('khoa.delete');
 //
+Route::get('/khoa/delete/{makh}',[KhoaController::class,'delete'])->name('khoa.delete');
+//
